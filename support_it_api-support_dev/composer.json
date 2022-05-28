@@ -1,0 +1,22 @@
+{
+    "name": "johnpi21/support-it",
+    "description": "Support-it backend",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ion Alex",
+            "email": "imalex96ro@gmail.com"
+        }
+    ],
+    "require": {
+        "thingengineer/mysqli-database-class": "dev-master",
+        "steampixel/simple-php-router": "^0.7.0",
+        "google/auth": "^1.21",
+        "google/apiclient": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Support\\": "classes"
+        }
+    }
+}
