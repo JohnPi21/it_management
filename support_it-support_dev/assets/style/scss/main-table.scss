@@ -1,0 +1,31 @@
+/* <----------- Table ------------> */
+.main-table {
+    background-color: $table-bk;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 14px;
+    overflow: hidden;
+    td,
+    th {
+        padding: 10px;
+        border-top: 1px solid #74747423;
+    }
+    th {
+        cursor: pointer;
+    }
+    tr:nth-child(2n) {
+        background-color: $table-row;
+        // border-left: 1px solid #fd413c;
+    }
+    .check {
+        color: $succes;
+    }
+    a {
+        color: white;
+    }
+}
+.pending {
+    background-color: #e94f2d !important;
+}

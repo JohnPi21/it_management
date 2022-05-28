@@ -1,0 +1,4 @@
+@mixin hover($base) {
+    background-color: rgba($base, 1);
+    filter: contrast(1.5);
+}
